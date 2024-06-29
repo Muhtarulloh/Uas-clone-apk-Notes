@@ -15,14 +15,14 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Notes CRUD',
       theme: ThemeData(
         brightness: Brightness.dark,
-        primaryColor: Colors.deepPurple,
-        hintColor: Colors.amber,
+        primaryColor: Color.fromARGB(255, 129, 104, 30),
+        hintColor: Color.fromARGB(255, 255, 255, 255),
         scaffoldBackgroundColor: Colors.grey[900],
         appBarTheme: AppBarTheme(
-          color: Colors.deepPurple,
+          color: Color.fromARGB(255, 0, 0, 0),
         ),
         floatingActionButtonTheme: FloatingActionButtonThemeData(
-          backgroundColor: Colors.amber,
+          backgroundColor: Color.fromRGBO(182, 151, 56, 1),
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
